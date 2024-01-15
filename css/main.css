@@ -39,7 +39,7 @@ main h1 {
     /*font-size: max(8vw, 25px); just minimum 
     font-size: min(8vw, 60px); and just maximung*/ 
 
-    font-size: min(max(8vw, 25px), 60px); /* both in one*/
+    font-size: min(max(7vw, 20px), 60px); /* both in one*/
 
 }
 
