@@ -1,6 +1,73 @@
 html, body {
     margin: 0;
-    background-color: #F0A500;
+    background-color: rgb(240, 165, 0);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #000000;
+    color: white;
+}
+
+
+
+
+header {
+    background-color: #CF7500;
+    padding: 2em;
+}
+
+
+
+
+
+
+header h1 {
+    padding: 0;
+    font-size: 42px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 25% 20px 25%;
+}
+
+main ol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+main ol li {
+    background-color: #CF7500;
+    padding: 20px;
+    
+
+}
+
+p {
+    max-width: 400px;
+    text-align: center;
+}
+
+#ingredientContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+img {
+    height: auto;
+    width: 400px;
+    border-radius: 10%;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 2em;
+    text-align: center;
 }
