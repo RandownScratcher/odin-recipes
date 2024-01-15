@@ -29,7 +29,9 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 40px 25% 20px 25%;
+    margin: 40px 0 20px 0;
+    margin-left: min(max(10vw, 20px), 100px);
+    margin-right: min(max(10vw, 20px), 100px);
 }
 
 main ol {
@@ -61,7 +63,7 @@ p {
 
 img {
     height: auto;
-    width: 400px;
+    width: min(85vw, 600px);
     border-radius: 10%;
 }
 
