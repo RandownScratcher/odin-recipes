@@ -35,9 +35,13 @@ main {
 
 main h1 {
     margin: 0;
-    font-size: 10vw;
+    /*font-size: max(8vw, 25px); just minimum 
+    font-size: min(8vw, 60px); and just maximung*/ 
+
+    font-size: min(max(8vw, 25px), 60px); /* both in one*/
 
 }
+
 
 #linkBox {
     display: flex;
@@ -52,7 +56,7 @@ main h1 {
     text-decoration: none;
     color: #000000;
     background-color: #F0A500;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50px;
     width: 135px;
     text-align: center;
